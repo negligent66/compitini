@@ -1,0 +1,119 @@
+header {
+    background-color: palegoldenrod;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: gray;
+    padding: 5px;
+}
+
+body {
+    background-color: khaki;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer{
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#immagine {
+    width: 120px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+    border: solid 5px navy;
+}
+
+#pasta {
+    width: 200px;
+    height: auto;
+    border: solid green;
+}
+
+#testin {
+    text-align: center;
+    font-size: 300%;
+    font-family: sans-serif;
+    color: olive;
+}
+
+.contenitore {
+    border: solid 5px blueviolet;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    text-align: center;
+    margin: 1px auto;
+}
+.voce-menu {
+    border: 2px solid #000;
+    border-radius: 10px;    
+    padding: 5px;  
+    background-color: #c9f85b; 
+    font-weight: bold;   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+.scrollable {
+    height: 450px;
+    overflow-y: auto;
+    border: 3px solid black; 
+    padding: 10px;
+    background-color: #c9f85b;
+    border-radius: 5px;
+}
+.titoli{
+    text-align: center;
+
+}
+.titolini{
+    border: 2px solid #000;
+    border-radius: 10px;    
+    padding: 5px;  
+    background-color: #1db4ff; 
+    font-weight: bold;   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+#text-footer{
+    color: #c9f85b;
+    font-weight: bold;
+}
+.immagini-menu{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+    border: solid 5px navy;
+}
+.menu-elementi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 281px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 281px;
+}
+
+.gmap_iframe {
+    height: 281px !important;
+}

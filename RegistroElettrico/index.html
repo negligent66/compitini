@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="negro">
+    <title>Registro elle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Registro Elettrico</h1>
+    </header>
+
+    <form method="post" action="" id="container">
+        <strong>Nome:</strong><br>
+        <input type="text" name="nome"><br>
+        <strong>Cognome:</strong><br>
+        <input type="text" name="cognome"><br><br>
+
+        <strong>Sesso:</strong>
+        <input type="radio" name="sesso" value="M">M
+        <input type="radio" name="sesso" value="F">F
+        <br><br>
+
+        <strong>MATERIE:</strong><br><br>
+        <div class="materia-row">
+            ED. CIVICA:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            ITALIANO:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            STORIA:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            INGLESE:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            MATEMATICA:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            INFORMATICA:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            SER:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            TPSIT:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            TELECOMUNICAZIONI:
+            <input type="text" name="materie">
+        </div>
+        <div class="materia-row">
+            SCIENZE MOTORIE:
+            <input type="text" name="materie">
+        </div>
+        <br>
+        <div id="boxino">
+            <button class="bottoncino">inserisci</button>
+            <button class="bottoncino">modifica</button>
+            <button class="bottoncino">rimuovi</button>
+            <button class="bottoncino">ordina</button>
+        </div>
+        <br>
+        Media Materia: 
+        <select name="materia" id="">
+            <option value="civica">Ed. civica</option>
+            <option value="ita">Italiano</option>
+            <option value="ssto">Storia</option>
+            <option value="ing">Inglese</option>
+            <option value="mate">Matematica</option>
+            <option value="info">Informatica</option>
+            <option value="ser">Sergio</option>
+            <option value="tip">TPSIT</option>
+            <option value="tel">Tele</option>
+            <option value="mot">Scienze Mot.</option>
+        </select>
+        =
+    </form>
+    <div id="studentini">
+
+    </div>
+    <footer>
+        <h2 id="text-footer">©COPYRIGHT NEGRONIA</h2>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

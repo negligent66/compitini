@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>CAPTCHA</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadCaptcha()">
+    <div class="captcha-container">
+        <h2>Verifica CAPTCHA</h2>
+        <p id="captcha-instruction"></p>
+        <div class="captcha-images" id="captcha-images"></div>
+        <button onclick="verifyCaptcha()">Verifica</button>
+        <div id="captcha-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

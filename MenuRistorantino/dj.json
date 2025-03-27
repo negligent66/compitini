@@ -1,0 +1,57 @@
+{
+    "torte": [
+        {
+            "nome": "TORTA NEGRA",
+            "prezzo": "8€",
+            "immagine": "tortanegra01.jpg"
+        },
+        {
+            "nome": "TORTA TENERINA",
+            "prezzo": "7,50€",
+            "immagine": "Torta-tenerina_360x300.avif"
+        },
+        {
+            "nome": "TORTA 7 VASETTI",
+            "prezzo": "9€",
+            "immagine": "./immagini/Torta-7-vasetti_360x300.avif"
+        },
+        {
+            "nome": "TORTA SACHER",
+            "prezzo": "10€",
+            "immagine": "./immagini/1600612468564.avif"
+        },
+        {
+            "nome": "TORTA FORESTA NERA",
+            "prezzo": "10€",
+            "immagine": "./immagini/ricetta-torta-foresta-nera-cioccolato-fondente-perugina.jpg"
+        }
+    ],
+
+    "gelati": [
+        {
+            "nome": "GELATO AL PISTACCHIO",
+            "prezzo": "1,50€",
+            "immagine": "./immagini/E59B4840-8679-484A-B6DA-EB7C00B3B2F8-1300x732.jpg"
+        },
+        {
+            "nome": "GELATO AL COCCO",
+            "prezzo": "1,30€",
+            "immagine": "./immagini/gelato-al-cocco.jpg"
+        },
+        {
+            "nome": "GELATO NEGRETTO",
+            "prezzo": "2,50€",
+            "immagine": "./immagini/Untitled-design-31.png"
+        },
+        {
+            "nome": "GELATO FRITTO",
+            "prezzo": "5,00€",
+            "immagine": "./immagini/gelato-fritto.webp"
+        },
+        {
+            "nome": "GELATO MALAGA",
+            "prezzo": "1,70€",
+            "immagine": "./immagini/Gelato-Mlaga1.jpg"
+        }
+    ]
+}
